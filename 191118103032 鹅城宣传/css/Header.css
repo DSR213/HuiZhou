@@ -1,0 +1,75 @@
+.headtop{
+	height: 40px;
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+	z-index: 100;
+	line-height: 40px;
+}
+.header{
+	position: absolute;
+	top: 40px;
+	height: 60px;
+	width: 100%;
+	background: rgba(0,0,0,0.7);
+	color: rgb(240,240,240);
+	line-height: 60px;
+	z-index: 100;
+	overflow: hidden;
+}
+.logo{
+	height: 24px;
+	opacity: 0.9;
+	position: relative;
+	transform: translateY(-50%);
+	top: 52%;
+	margin-right: 5px;
+}
+iframe{
+	width: 288px;
+	height: 40px;
+	float: left;
+	padding-top: 8px;
+}
+.header .navbox{
+	position: relative;
+
+}
+.header .nav li{
+	float: left;
+}
+.header .nav li:nth-child(even){
+	margin: 0 45px;
+}
+.header .nav li a{
+	color: rgba(255,255,255,0.7);
+	font-size: 22px;
+	height: 60px;
+	padding: 17px 0;
+}
+.header .nav li.navchoose a{
+	color: #FFF;
+}
+.header .nav li a:hover{
+	color: #FFF;
+}
+.choose{
+	position: absolute;
+	bottom: 2px;
+	border-radius: 1px;
+	height: 4px;
+	width: 44px;
+	background: #FFF;
+}
+.header i.fa{
+	height: 60px;
+	width: 60px;
+	background: #4F85DA;
+	float: left;
+	margin-left: -30px;
+	margin-right: 5px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 28px;
+	cursor: pointer;
+}

@@ -1,0 +1,56 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	max-width: 2048px;
+}
+body{
+	font-family: "仿宋";
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.w1135{
+	min-width: 1135px;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.Xcenter{
+	left: 50%;
+	transform: translateX(-50%);
+}
+.pt70{
+	padding-top: 70px;
+}
+.plr30{
+	padding: 0 30px;
+}
+h1,h2,h3,h4,h5,h6,h7,h8,h9{
+	cursor: default;
+}
+.Wrapdown{
+	position: absolute;
+	bottom: 10px;
+	font-size: 80px;
+	font-weight: 100;
+	color: rgb(255, 255, 255);
+	opacity: 0.5;
+}
+.Wrapdown:hover{
+	opacity: 0.9;
+	text-shadow: #5AADDD 0 0 8px;
+}
+.mainbox{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	min-width: 1135px;
+	min-height: 800px;
+}

@@ -1,0 +1,115 @@
+.bg{
+	background-image: url(../images/4.jpg);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.backup{
+	position: fixed;
+	z-index: 200;
+	right: -60px;
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	top: 80px;
+	color: rgba(255,255,255,0.3);
+	text-align: center;
+	border: 2px solid rgba(255,255,255,0.3);
+	border-radius: 5px;
+}
+.backup:hover{
+	color: rgba(255,255,255,0.7);
+	border: 2px solid rgba(255,255,255,0.7);
+}
+.backup .fa{
+	font-size: 50px;
+	margin-top: -10px;
+}
+.backup p{
+	margin-top: -8px;
+}
+
+.vcr{
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.1);
+	box-shadow: 2px 5px 10px rgba(0,0,0,0.1);
+}
+.Wrapdown{
+	text-shadow: #000 2px 2px 5px;
+}
+.introduce{
+	width: 100%;
+	padding: 40px 0;
+}
+.vcr img{
+	position: absolute;
+	width: 900px;
+	top: 40px;
+	left: 50%;
+}
+.vcr video{
+	width: 750px;
+	height: 422px;
+	position: absolute;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	left: 50%;
+	top: 62%;
+	transform: translate(-50%,-50%);
+}
+
+.introbox{
+	position: relative;
+	width: 90%;
+	height: 300px;
+	margin-top: 30px;
+	background: rgba(120,120,120,0.3);
+	border-radius: 15px;
+	transform: translateX(-50%); 
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	left: 50%;
+	overflow: hidden;
+	cursor: pointer;
+}
+.introbox img,h3,p{
+	position: absolute;
+	font-family: "微软雅黑";
+	color: #FFF;
+	text-shadow: 1px 1px #333;
+}
+.introbox img{
+	top: 10px;
+	left: 10px;
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	border: 3px inset #DDD;
+	z-index: 1;
+}
+.introbox h3{
+	left: 300px;
+	top: 10px;
+	font-size: 22px;
+	z-index: 2;
+}
+.introbox p{
+	margin-right: 10px;
+	top: 50px;
+	left: 310px;
+	z-index: 2;
+}
+.mask{
+	position: absolute;
+	width: 110%;
+	height: 100%;
+	left: -115%;
+	transform: skewX(-20deg);
+	background: rgba(0,0,0,0.2);
+}
